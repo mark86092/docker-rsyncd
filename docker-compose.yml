@@ -1,0 +1,6 @@
+version: '3'
+services:
+    rsyncd:
+        image: mark86092/docker-rsyncd
+        build:
+            context: ./
